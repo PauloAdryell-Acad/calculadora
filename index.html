@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" name="form" action="#" method="post">
+        <div id="calc">
+            <input type="text" name="visor" id="visor" placeholder="Calculo">
+            <div id="botoes">
+                <div class="row">
+                    <input type="button" class="botao" value="1" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="2" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="3" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="4" onclick="insere_valor(this)">
+                </div> 
+                <div class="row"> 
+                    <input type="button" class="botao" value="5" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="6" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="7" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="8" onclick="insere_valor(this)">
+                </div> 
+                <div class="row"> 
+                    <input type="button" class="botao" value="9" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="0" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="C" onclick="limpar()">
+                    <input type="button" class="botao" value="=" onclick="calcula()">
+                </div> 
+                <div class="row"> 
+                    <input type="button" class="botao" value="+" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="-" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="*" onclick="insere_valor(this)">
+                    <input type="button" class="botao" value="/" onclick="insere_valor(this)">
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div id="hist">
+        <h2>Ultimos cálculos:</h2>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

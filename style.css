@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+#calc{
+    position: absolute;
+    left: 30%;
+    background-color: indigo;
+    color: white;
+    height: 400px;
+    width: 500px;
+    border: solid 3px white;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+
+#visor{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 470px;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    background: indigo;
+}
+ 
+#botoes{
+    display: flex;
+    margin-top: 20%;
+    height: 200px;
+}
+.row{
+    margin-left: 3%;
+    margin: 5px;
+}
+
+.botao{
+    background-color: cadetblue;
+    color: red;
+    border-radius: 30px;
+    margin: 2px;
+    width: 100px;
+    height: 60px;
+    opacity: 0.8;
+    font-size: 25px;
+}
+
+.botao:hover{
+    background: black;
+}
+
+#hist{
+    position: absolute;
+    right: 30px;
+    color: white;
+}
